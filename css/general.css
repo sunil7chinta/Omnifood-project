@@ -70,6 +70,7 @@ html {
   /* percentage of user's font-size settings */
   font-size: 62.5%;
   overflow-x: hidden;
+  /* scroll-behavior: smooth; */
 }
 
 body {

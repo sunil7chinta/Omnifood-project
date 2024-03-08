@@ -105,10 +105,12 @@ media queries instead, 1rem = 1em = 16px */
   /* MOBILE */
   .btn-mobile-nav {
     display: block;
+    z-index: 1000;
   }
   .main-nav {
-    background-color: #fffffff9;
+    background-color: #ffffffa9;
     position: absolute;
+    backdrop-filter: blur(10px);
     top: 0;
     left: 0;
     width: 100%;
